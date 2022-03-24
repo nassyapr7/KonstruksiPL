@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="20dp"
+    tools:context=".TambahMahasiswa">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mata Kuliah"/>
+
+    <EditText
+        android:id="@+id/edMatkul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukkan Mata Kuliah..."
+        android:textSize="16sp"
+        android:background="@drawable/edittext"
+        android:padding="15dp"
+        android:layout_marginTop="10dp"
+        android:importantForAutofill="no"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nilai Tugas"
+        android:layout_marginTop="20dp"/>
+
+    <EditText
+        android:id="@+id/edTugas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukkan Nilai Rata-Rata Tugas..."
+        android:textSize="16sp"
+        android:background="@drawable/edittext"
+        android:padding="15dp"
+        android:layout_marginTop="10dp"
+        android:importantForAutofill="no"
+        android:inputType="numberDecimal"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nilai Quiz"
+        android:layout_marginTop="20dp"/>
+
+    <EditText
+        android:id="@+id/edQuiz"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukkan Nilai Quiz"
+        android:textSize="16sp"
+        android:background="@drawable/edittext"
+        android:padding="15dp"
+        android:layout_marginTop="10dp"
+        android:importantForAutofill="no"
+        android:inputType="numberDecimal"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nilai UTS"
+        android:layout_marginTop="20dp"/>
+
+    <EditText
+        android:id="@+id/edUTS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukkan Nilai UTS..."
+        android:textSize="16sp"
+        android:background="@drawable/edittext"
+        android:padding="15dp"
+        android:layout_marginTop="10dp"
+        android:importantForAutofill="no"
+        android:inputType="numberDecimal"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nilai UAS"
+        android:layout_marginTop="20dp"/>
+
+    <EditText
+        android:id="@+id/edUAS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukkan Nilai UAS... "
+        android:textSize="16sp"
+        android:background="@drawable/edittext"
+        android:padding="15dp"
+        android:layout_marginTop="10dp"
+        android:importantForAutofill="no"
+        android:inputType="numberDecimal"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_info"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="right"
+        android:id="@+id/showInfo"/>
+
+    <Button
+        android:id="@+id/btnSimpanNilai"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:textColor="#ffffff"
+        android:background="@drawable/button"
+        android:textSize="16sp"
+        android:textAllCaps="false"
+        android:padding="15dp"
+        android:text="Tambah" />
+
+</LinearLayout>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="20dp"
+    tools:context=".TambahMahasiswa">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NIM"/>
+
+    <EditText
+        android:id="@+id/edNIM"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukkan NIM..."
+        android:textSize="16sp"
+        android:background="@drawable/edittext"
+        android:padding="15dp"
+        android:layout_marginTop="10dp"
+        android:importantForAutofill="no"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nama"
+        android:layout_marginTop="20dp"/>
+
+    <EditText
+        android:id="@+id/edNama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukkan Nama..."
+        android:importantForAutofill="no"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/edittext"
+        android:padding="15dp"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Program Studi"
+        android:layout_marginTop="20dp"/>
+
+    <EditText
+        android:id="@+id/edProdi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukkan Program Studi..."
+        android:importantForAutofill="no"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/edittext"
+        android:padding="15dp"
+        android:textSize="16sp"/>
+
+    <Button
+        android:id="@+id/btnSimpan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="Tambah"
+        android:textColor="#ffffff"
+        android:background="@drawable/button"
+        android:textSize="16sp"
+        android:textAllCaps="false"
+        android:padding="15dp" />
+
+</LinearLayout>

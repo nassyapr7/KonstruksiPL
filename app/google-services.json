@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "444445161067",
+    "firebase_url": "https://kpl-firebase-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "kpl-firebase",
+    "storage_bucket": "kpl-firebase.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:444445161067:android:01fefff64428209f3b232e",
+        "android_client_info": {
+          "package_name": "com.example.kpl"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "444445161067-0f27stccqbdk1ikjvspdlscrsaf2jrup.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAF0_Q72Hr_Vmj3zurKVm54jrW97YIZraY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "444445161067-0f27stccqbdk1ikjvspdlscrsaf2jrup.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
